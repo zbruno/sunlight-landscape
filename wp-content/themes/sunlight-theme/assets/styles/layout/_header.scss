@@ -1,0 +1,30 @@
+.sl-header {
+  @extend .banner;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.sl-header-nav {
+  @extend .navbar;
+  @extend .bg-faded;
+}
+
+.sl-header-nav-ul {
+  @extend .navbar-nav;
+  @extend .nav;
+}
+
+.menu-item {
+  @extend .nav-item;
+
+  &.current-menu-item {
+    @extend .active;
+  }
+}
+
+.menu-item a {
+  @extend .nav-link;
+}

@@ -1,0 +1,11 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import './globals/fonts';
+
+@import './layout/body';
+@import './layout/header';
+
+// TAKE OU AFTER
+#wpadminbar {
+  display: none;
+}
