@@ -1,0 +1,56 @@
+@keyframes zoom-out-hero-img {
+  from { transform: scale(1.075, 1.075) }
+  to { transform: scale(1, 1) }
+}
+
+.sl-home-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.sl-home-hero-bg-image {
+  max-width: 3840px;
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  bottom: 0;
+  height: 100%;
+  animation: zoom-out-hero-img 10s;
+  pointer-events: none;
+}
+
+.sl-home-hero-title {
+  position: relative;
+  color: #fff;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 1.5rem;
+}
+
+.sl-home-hero-subtitle {
+  @extend .body-font;
+  position: relative;
+  text-transform: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  z-index: 2;
+}
+
+.sl-home-hero-button {
+  @extend %button;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 2rem;
+}
