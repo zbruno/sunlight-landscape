@@ -1,0 +1,41 @@
+.sl-home-certifications {
+  @extend %section;
+  border-top: 10px solid $yellow;
+}
+
+.sl-home-certifications-title {
+  @extend %section-header;
+}
+
+.sl-home-certifications-subtitle {
+  @extend %section-subheader;
+}
+
+.sl-home-certifications-container {
+  @extend .container;
+  @extend .row;
+  margin: auto;
+}
+
+.sl-home-certification {
+  @extend .col-sm-4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sl-home-certification-image {
+  max-width: 250px;
+  max-height: 75px;
+  margin-bottom: 1rem;
+}
+
+.sl-home-certification-text {
+  color: #666;
+  text-align: center;
+}
+
+.sl-home-certification-link {
+  @extend %button-with-icon;
+}

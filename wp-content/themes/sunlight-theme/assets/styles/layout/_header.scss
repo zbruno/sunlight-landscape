@@ -5,11 +5,13 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 
 .sl-header-nav {
   @extend .navbar;
-  @extend .bg-faded;
+  background: transparent;
+  height: $navbar-height;
 }
 
 .sl-header-nav-ul {

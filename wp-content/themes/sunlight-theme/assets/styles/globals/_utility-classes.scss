@@ -1,0 +1,20 @@
+%section {
+  padding: 3.5rem 0;
+}
+
+%section-header {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  font-size: 28px;
+  color: #444;
+}
+
+%section-subheader {
+  @extend .body-font;
+  text-transform: none;
+  text-align: center;
+  font-size: 17px;
+  color: #666;
+  padding-bottom: 5rem;
+  letter-spacing: 0;
+}
